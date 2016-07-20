@@ -16,11 +16,11 @@ body {
   flex-direction: column;
   border-bottom: 0.5px solid rgba(0, 0, 0, 0.125); }
   .header a img.hurley {
-    height: 10px;
+    height: 10.5px;
     width: auto;
     opacity: 0.45; }
   .header a img.converse {
-    height: 7px;
+    height: 7.5px;
     width: auto;
     opacity: 0.45; }
   .header a img.jordan {
@@ -37,15 +37,15 @@ body {
     width: auto;
     opacity: 0.45; }
   .header a:hover img.hurley {
-    height: 10px;
+    height: 10.5px;
     width: auto;
     opacity: 100; }
   .header a:hover img.converse {
-    height: 7px;
+    height: 7.5px;
     width: auto;
     opacity: 100; }
   .header a:hover img.jordan-red {
-    display: block;
+    display: inline;
     height: 16px;
     width: auto;
     opacity: 1; }
@@ -108,7 +108,22 @@ body {
 .header-container-bottom {
   width: 100vw;
   height: 70px;
-  display: flex; }
+  display: flex;
+  align-items: center; }
+  .header-container-bottom a img {
+    height: 21px;
+    width: auto;
+    padding-left: 33px; }
+  .header-container-bottom a img.nike-orange {
+    display: none; }
+  .header-container-bottom a:hover img {
+    height: 21px;
+    width: auto;
+    padding-left: 33px; }
+  .header-container-bottom a:hover img.nike-orange {
+    display: inline; }
+  .header-container-bottom a:hover img.nike {
+    display: none; }
 
 .main {
   width: 100vw;
